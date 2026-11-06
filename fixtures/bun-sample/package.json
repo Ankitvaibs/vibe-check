@@ -1,0 +1,19 @@
+{
+  "name": "bun-sample",
+  "private": true,
+  "dependencies": {
+    "express": "4.19.2",
+    "lodash": "4.17.20",
+    "my-lodash": "npm:lodash@4.17.21",
+    "@babel/runtime": "7.20.0",
+    "is-number": "github:jonschlinkert/is-number#98e8ff1",
+    "local-thing": "file:./local-thing"
+  },
+  "devDependencies": {
+    "jest": "29.7.0",
+    "debug": "4.3.4"
+  },
+  "optionalDependencies": {
+    "fsevents": "2.3.3"
+  }
+}

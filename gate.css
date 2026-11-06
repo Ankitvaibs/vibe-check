@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 16px; background: #f5f7fa; color: #1b1d2e; font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+.gate { width: 100%; max-width: 420px; background: #fff; border: 1px solid #e1e3ee; border-top: 6px solid #1f4e79; border-radius: 14px; padding: 28px 24px; box-shadow: 0 1px 2px rgba(27,29,46,.05), 0 6px 20px rgba(27,29,46,.06); }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 18px; margin-bottom: 18px; }
+.brand::before { content: ""; width: 22px; height: 22px; border-radius: 7px; background: #1f4e79; box-shadow: inset 0 -6px 0 #2f6ea8; }
+h1 { font-size: 22px; margin: 0 0 6px; }
+p { margin: 0 0 16px; color: #5a5d72; font-size: 15px; }
+label { display: block; font-weight: 600; font-size: 14px; margin-bottom: 6px; }
+input { width: 100%; font: inherit; padding: 10px 12px; border: 1px solid #c3d2e2; border-radius: 10px; margin-bottom: 12px; }
+input:focus { outline: 2px solid #1f4e79; outline-offset: 1px; }
+button { width: 100%; font: inherit; font-weight: 600; padding: 10px 16px; border: 0; border-radius: 10px; background: #1f4e79; color: #fff; cursor: pointer; }
+button:disabled { opacity: .6; cursor: wait; }
+#gate-msg { min-height: 1.5em; margin: 12px 0 0; color: #8f1d17; font-size: 14px; }
+[hidden] { display: none !important; }

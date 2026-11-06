@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; worker-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>VibeInsights — private preview</title>
+  <link rel="stylesheet" href="../gate.css">
+  <script type="module" src="../gate.js"></script>
+</head>
+<body>
+  <main class="gate">
+    <div class="brand">VibeInsights</div>
+    <h1>Private preview</h1>
+    <p>Enter the password you were given.</p>
+    <form id="gate-form">
+      <label for="gate-pw">Password</label>
+      <input id="gate-pw" type="password" autocomplete="current-password" required>
+      <button id="gate-btn" type="submit">Unlock</button>
+    </form>
+    <p id="gate-msg" role="status"></p>
+  </main>
+</body>
+</html>
